@@ -1,0 +1,2227 @@
+{
+  "user": {
+    "id": "ruth",
+    "display_name": "Ruth Brewer",
+    "email": "ruth@example.com",
+    "created_at": "2019-06-01T09:00:00"
+  },
+  "foods": {
+    "flour": {
+      "id": "flour",
+      "name": "all-purpose flour",
+      "plural_name": "all-purpose flour",
+      "category": "flour",
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "dietary_tags": [],
+      "default_unit": "cup"
+    },
+    "sugar": {
+      "id": "sugar",
+      "name": "sugar",
+      "plural_name": "sugar",
+      "category": "sugar",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "cup"
+    },
+    "brown-sugar": {
+      "id": "brown-sugar",
+      "name": "brown sugar",
+      "plural_name": "brown sugar",
+      "category": "sugar",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "cup"
+    },
+    "powdered-sugar": {
+      "id": "powdered-sugar",
+      "name": "powdered sugar",
+      "plural_name": "powdered sugar",
+      "category": "sugar",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "cup"
+    },
+    "salt": {
+      "id": "salt",
+      "name": "kosher salt",
+      "plural_name": "kosher salt",
+      "category": "spice",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "tsp"
+    },
+    "yeast": {
+      "id": "yeast",
+      "name": "active dry yeast",
+      "plural_name": "active dry yeast",
+      "category": "leavener",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "tsp"
+    },
+    "milk": {
+      "id": "milk",
+      "name": "whole milk",
+      "plural_name": "whole milk",
+      "category": "dairy",
+      "allergens": [
+        "milk"
+      ],
+      "dietary_tags": [],
+      "default_unit": "cup"
+    },
+    "butter": {
+      "id": "butter",
+      "name": "unsalted butter",
+      "plural_name": "unsalted butter",
+      "category": "fat",
+      "allergens": [
+        "milk"
+      ],
+      "dietary_tags": [],
+      "default_unit": "cup"
+    },
+    "egg": {
+      "id": "egg",
+      "name": "egg",
+      "plural_name": "eggs",
+      "category": "egg",
+      "allergens": [
+        "egg"
+      ],
+      "dietary_tags": [],
+      "default_unit": null
+    },
+    "cinnamon": {
+      "id": "cinnamon",
+      "name": "cinnamon",
+      "plural_name": "cinnamon",
+      "category": "spice",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "tbsp"
+    },
+    "cream-cheese": {
+      "id": "cream-cheese",
+      "name": "cream cheese",
+      "plural_name": "cream cheese",
+      "category": "dairy",
+      "allergens": [
+        "milk"
+      ],
+      "dietary_tags": [],
+      "default_unit": "oz"
+    },
+    "vanilla": {
+      "id": "vanilla",
+      "name": "vanilla extract",
+      "plural_name": "vanilla extract",
+      "category": "condiment",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "tsp"
+    },
+    "baking-soda": {
+      "id": "baking-soda",
+      "name": "baking soda",
+      "plural_name": "baking soda",
+      "category": "leavener",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "tsp"
+    },
+    "chocolate-chips": {
+      "id": "chocolate-chips",
+      "name": "semisweet chocolate chips",
+      "plural_name": "semisweet chocolate chips",
+      "category": "sugar",
+      "allergens": [],
+      "dietary_tags": [],
+      "default_unit": "cup"
+    },
+    "bread": {
+      "id": "bread",
+      "name": "sandwich bread",
+      "plural_name": "sandwich bread",
+      "category": "grain",
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "dietary_tags": [],
+      "default_unit": "slice"
+    }
+  },
+  "recipe": {
+    "id": "cinnamon-rolls",
+    "slug": "cinnamon-rolls",
+    "title": "Ruth's Cinnamon Rolls",
+    "headnote": "Christmas morning, 1987 onwards. She started the dough the night before and the house smelled like cinnamon before anyone was allowed downstairs. The icing goes on while they're still warm \u2014 it should melt into the swirls, not sit on top.",
+    "owner": {
+      "kind": "user",
+      "user_id": "ruth"
+    },
+    "added_by": "ruth",
+    "yields": {
+      "amount": {
+        "value": "12",
+        "upper": null,
+        "approximate": false
+      },
+      "unit": "rolls"
+    },
+    "ingredients": [
+      {
+        "id": "dough-milk",
+        "food": "milk",
+        "quantity": {
+          "amount": {
+            "value": "3/4",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "cup",
+          "size": null
+        },
+        "prep": "warm",
+        "note": null,
+        "component": "dough",
+        "display_order": 0
+      },
+      {
+        "id": "dough-yeast",
+        "food": "yeast",
+        "quantity": {
+          "amount": {
+            "value": "9/4",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "tsp",
+          "size": null
+        },
+        "prep": null,
+        "note": null,
+        "component": "dough",
+        "display_order": 1
+      },
+      {
+        "id": "dough-sugar",
+        "food": "sugar",
+        "quantity": {
+          "amount": {
+            "value": "1/4",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "cup",
+          "size": null
+        },
+        "prep": null,
+        "note": null,
+        "component": "dough",
+        "display_order": 2
+      },
+      {
+        "id": "dough-egg",
+        "food": "egg",
+        "quantity": {
+          "amount": {
+            "value": "1",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": null,
+          "size": null
+        },
+        "prep": null,
+        "note": null,
+        "component": "dough",
+        "display_order": 3
+      },
+      {
+        "id": "dough-butter",
+        "food": "butter",
+        "quantity": {
+          "amount": {
+            "value": "1/4",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "cup",
+          "size": null
+        },
+        "prep": "melted",
+        "note": null,
+        "component": "dough",
+        "display_order": 4
+      },
+      {
+        "id": "dough-flour",
+        "food": "flour",
+        "quantity": {
+          "amount": {
+            "value": "3",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "cup",
+          "size": null
+        },
+        "prep": null,
+        "note": null,
+        "component": "dough",
+        "display_order": 5
+      },
+      {
+        "id": "dough-salt",
+        "food": "salt",
+        "quantity": {
+          "amount": {
+            "value": "1",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "tsp",
+          "size": null
+        },
+        "prep": null,
+        "note": null,
+        "component": "dough",
+        "display_order": 6
+      },
+      {
+        "id": "fill-butter",
+        "food": "butter",
+        "quantity": {
+          "amount": {
+            "value": "1/2",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "cup",
+          "size": null
+        },
+        "prep": "softened",
+        "note": null,
+        "component": "filling",
+        "display_order": 7
+      },
+      {
+        "id": "fill-brown",
+        "food": "brown-sugar",
+        "quantity": {
+          "amount": {
+            "value": "3/4",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "cup",
+          "size": null
+        },
+        "prep": "packed",
+        "note": null,
+        "component": "filling",
+        "display_order": 8
+      },
+      {
+        "id": "fill-cinnamon",
+        "food": "cinnamon",
+        "quantity": {
+          "amount": {
+            "value": "2",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "tbsp",
+          "size": null
+        },
+        "prep": null,
+        "note": null,
+        "component": "filling",
+        "display_order": 9
+      },
+      {
+        "id": "icing-cheese",
+        "food": "cream-cheese",
+        "quantity": {
+          "amount": {
+            "value": "4",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "oz",
+          "size": null
+        },
+        "prep": "softened",
+        "note": null,
+        "component": "icing",
+        "display_order": 10
+      },
+      {
+        "id": "icing-butter",
+        "food": "butter",
+        "quantity": {
+          "amount": {
+            "value": "1/4",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "cup",
+          "size": null
+        },
+        "prep": "softened",
+        "note": null,
+        "component": "icing",
+        "display_order": 11
+      },
+      {
+        "id": "icing-powdered",
+        "food": "powdered-sugar",
+        "quantity": {
+          "amount": {
+            "value": "1",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "cup",
+          "size": null
+        },
+        "prep": null,
+        "note": null,
+        "component": "icing",
+        "display_order": 12
+      },
+      {
+        "id": "icing-vanilla",
+        "food": "vanilla",
+        "quantity": {
+          "amount": {
+            "value": "1/2",
+            "upper": null,
+            "approximate": false
+          },
+          "unit": "tsp",
+          "size": null
+        },
+        "prep": null,
+        "note": null,
+        "component": "icing",
+        "display_order": 13
+      }
+    ],
+    "steps": [
+      {
+        "id": "bloom",
+        "technique": {
+          "kind": "mix"
+        },
+        "inputs": [
+          {
+            "ref": "ingredient",
+            "ingredient_id": "dough-milk",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "dough-yeast",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "dough-sugar",
+            "portion": null
+          }
+        ],
+        "label": "bloom the yeast",
+        "text": "Stir the 3/4 cup warm milk, 2 1/4 tsp yeast, and 1/4 cup sugar. Wait until it foams.",
+        "duration": {
+          "min_minutes": 5,
+          "max_minutes": 10
+        },
+        "until": "until foamy",
+        "heat": null,
+        "attention": null,
+        "vessel": "mixer",
+        "reserves": [],
+        "component": "dough",
+        "order": 0
+      },
+      {
+        "id": "wet",
+        "technique": {
+          "kind": "mix"
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "bloom",
+            "output_id": null,
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "dough-egg",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "dough-butter",
+            "portion": null
+          }
+        ],
+        "label": "mix the wet dough",
+        "text": "Beat in the egg and the 1/4 cup melted butter.",
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": "mixer",
+        "reserves": [],
+        "component": "dough",
+        "order": 1
+      },
+      {
+        "id": "knead",
+        "technique": {
+          "kind": "knead",
+          "method": "stand_mixer"
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "wet",
+            "output_id": null,
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "dough-flour",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "dough-salt",
+            "portion": null
+          }
+        ],
+        "label": "knead",
+        "text": "Add the 3 cups flour and 1 tsp salt. Knead on medium until the dough is smooth and pulls from the bowl.",
+        "duration": {
+          "min_minutes": 8,
+          "max_minutes": null
+        },
+        "until": "until smooth",
+        "heat": null,
+        "attention": null,
+        "vessel": "mixer",
+        "reserves": [],
+        "component": "dough",
+        "order": 2
+      },
+      {
+        "id": "proof-1",
+        "technique": {
+          "kind": "proof",
+          "covered": true
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "knead",
+            "output_id": null,
+            "portion": null
+          }
+        ],
+        "label": "first rise",
+        "text": "Cover and let rise until doubled.",
+        "duration": {
+          "min_minutes": 60,
+          "max_minutes": 90
+        },
+        "until": "until doubled",
+        "heat": null,
+        "attention": null,
+        "vessel": null,
+        "reserves": [],
+        "component": "dough",
+        "order": 3
+      },
+      {
+        "id": "mix-filling",
+        "technique": {
+          "kind": "combine"
+        },
+        "inputs": [
+          {
+            "ref": "ingredient",
+            "ingredient_id": "fill-butter",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "fill-brown",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "fill-cinnamon",
+            "portion": null
+          }
+        ],
+        "label": "make the filling",
+        "text": "Mash the 1/2 cup softened butter with 3/4 cup brown sugar and 2 tbsp cinnamon into a paste.",
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": null,
+        "reserves": [],
+        "component": "filling",
+        "order": 4
+      },
+      {
+        "id": "roll",
+        "technique": {
+          "kind": "roll",
+          "thickness": "1/4 inch"
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "proof-1",
+            "output_id": null,
+            "portion": null
+          }
+        ],
+        "label": "roll the dough",
+        "text": "Punch down and roll into a 12-by-16-inch rectangle, about 1/4 inch thick.",
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": null,
+        "reserves": [],
+        "component": "dough",
+        "order": 5
+      },
+      {
+        "id": "fill",
+        "technique": {
+          "kind": "assemble"
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "roll",
+            "output_id": null,
+            "portion": null
+          },
+          {
+            "ref": "step",
+            "step_id": "mix-filling",
+            "output_id": null,
+            "portion": null
+          }
+        ],
+        "label": "spread the filling",
+        "text": "Spread the cinnamon butter over the dough, leaving a 1/2-inch strip along one long edge.",
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": null,
+        "reserves": [],
+        "component": "filling",
+        "order": 6
+      },
+      {
+        "id": "shape",
+        "technique": {
+          "kind": "shape",
+          "form": "log"
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "fill",
+            "output_id": null,
+            "portion": null
+          }
+        ],
+        "label": "roll into a log",
+        "text": "Roll up from the long side into a tight log and pinch the seam.",
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": null,
+        "reserves": [],
+        "component": null,
+        "order": 7
+      },
+      {
+        "id": "divide",
+        "technique": {
+          "kind": "divide",
+          "portions": 12
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "shape",
+            "output_id": null,
+            "portion": null
+          }
+        ],
+        "label": "cut into 12",
+        "text": "Slice the log into 12 rolls and nestle them in a buttered 9x13 pan.",
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": "pan",
+        "reserves": [],
+        "component": null,
+        "order": 8
+      },
+      {
+        "id": "proof-2",
+        "technique": {
+          "kind": "proof",
+          "covered": true
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "divide",
+            "output_id": null,
+            "portion": null
+          }
+        ],
+        "label": "second rise",
+        "text": "Cover and let the rolls puff until they touch.",
+        "duration": {
+          "min_minutes": 30,
+          "max_minutes": 45
+        },
+        "until": "until puffy and touching",
+        "heat": null,
+        "attention": null,
+        "vessel": "pan",
+        "reserves": [],
+        "component": null,
+        "order": 9
+      },
+      {
+        "id": "preheat",
+        "technique": {
+          "kind": "preheat",
+          "temperature": {
+            "value": 350,
+            "unit": "F"
+          }
+        },
+        "inputs": [],
+        "label": "heat the oven to 350\u00b0F",
+        "text": null,
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": null,
+        "reserves": [],
+        "component": null,
+        "order": 10
+      },
+      {
+        "id": "bake",
+        "technique": {
+          "kind": "bake",
+          "temperature": {
+            "value": 350,
+            "unit": "F"
+          },
+          "rack": "middle",
+          "convection": false,
+          "covered": null
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "proof-2",
+            "output_id": null,
+            "portion": null
+          }
+        ],
+        "label": "bake",
+        "text": "Bake until the tops are golden and the centers are set.",
+        "duration": {
+          "min_minutes": 25,
+          "max_minutes": 30
+        },
+        "until": "until golden",
+        "heat": null,
+        "attention": null,
+        "vessel": "pan",
+        "reserves": [],
+        "component": null,
+        "order": 11
+      },
+      {
+        "id": "mix-icing",
+        "technique": {
+          "kind": "cream"
+        },
+        "inputs": [
+          {
+            "ref": "ingredient",
+            "ingredient_id": "icing-cheese",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "icing-butter",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "icing-powdered",
+            "portion": null
+          },
+          {
+            "ref": "ingredient",
+            "ingredient_id": "icing-vanilla",
+            "portion": null
+          }
+        ],
+        "label": "beat the icing",
+        "text": "Beat the cream cheese and butter until smooth, then the powdered sugar and vanilla.",
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": "mixer",
+        "reserves": [],
+        "component": "icing",
+        "order": 12
+      },
+      {
+        "id": "frost",
+        "technique": {
+          "kind": "frost"
+        },
+        "inputs": [
+          {
+            "ref": "step",
+            "step_id": "bake",
+            "output_id": null,
+            "portion": null
+          },
+          {
+            "ref": "step",
+            "step_id": "mix-icing",
+            "output_id": null,
+            "portion": null
+          }
+        ],
+        "label": "frost",
+        "text": "Spread the icing over the rolls while they are still just warm.",
+        "duration": null,
+        "until": null,
+        "heat": null,
+        "attention": null,
+        "vessel": "pan",
+        "reserves": [],
+        "component": null,
+        "order": 13
+      }
+    ],
+    "components": [
+      {
+        "id": "dough",
+        "name": "the dough",
+        "kind": "dough",
+        "order": 0
+      },
+      {
+        "id": "filling",
+        "name": "the filling",
+        "kind": "filling",
+        "order": 1
+      },
+      {
+        "id": "icing",
+        "name": "the icing",
+        "kind": "frosting",
+        "order": 2
+      }
+    ],
+    "equipment": [
+      {
+        "id": "mixer",
+        "name": "stand mixer",
+        "size": "bowl fitted with the dough hook"
+      },
+      {
+        "id": "pan",
+        "name": "baking pan",
+        "size": "9x13"
+      }
+    ],
+    "tags": [
+      "brunch",
+      "yeast",
+      "christmas"
+    ],
+    "cuisine": "American",
+    "course": "breakfast",
+    "difficulty": "medium",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1509365465985-25d11c17e812",
+        "alt": "A pan of iced cinnamon rolls",
+        "caption": "Still warm. The icing should gloss, not sit.",
+        "is_primary": true
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-second-rise",
+        "author": "ruth",
+        "text": "Don't skip the second rise. If they look shy in the pan, give them another 15 minutes.",
+        "created_at": "2024-12-24T08:15:00"
+      }
+    ],
+    "source_url": null,
+    "forked_from": null,
+    "visibility": "public",
+    "created_at": "2024-03-12T10:00:00",
+    "updated_at": "2024-12-24T08:15:00",
+    "total_time_minutes": 183,
+    "gridable": true,
+    "grid_row_order": [
+      "dough-milk",
+      "dough-yeast",
+      "dough-sugar",
+      "dough-egg",
+      "dough-butter",
+      "dough-flour",
+      "dough-salt",
+      "fill-butter",
+      "fill-brown",
+      "fill-cinnamon",
+      "icing-cheese",
+      "icing-butter",
+      "icing-powdered",
+      "icing-vanilla"
+    ]
+  },
+  "recipes": [
+    {
+      "id": "cinnamon-rolls",
+      "slug": "cinnamon-rolls",
+      "title": "Ruth's Cinnamon Rolls",
+      "headnote": "Christmas morning, 1987 onwards. She started the dough the night before and the house smelled like cinnamon before anyone was allowed downstairs. The icing goes on while they're still warm \u2014 it should melt into the swirls, not sit on top.",
+      "owner": {
+        "kind": "user",
+        "user_id": "ruth"
+      },
+      "added_by": "ruth",
+      "yields": {
+        "amount": {
+          "value": "12",
+          "upper": null,
+          "approximate": false
+        },
+        "unit": "rolls"
+      },
+      "ingredients": [
+        {
+          "id": "dough-milk",
+          "food": "milk",
+          "quantity": {
+            "amount": {
+              "value": "3/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": "warm",
+          "note": null,
+          "component": "dough",
+          "display_order": 0
+        },
+        {
+          "id": "dough-yeast",
+          "food": "yeast",
+          "quantity": {
+            "amount": {
+              "value": "9/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "tsp",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": "dough",
+          "display_order": 1
+        },
+        {
+          "id": "dough-sugar",
+          "food": "sugar",
+          "quantity": {
+            "amount": {
+              "value": "1/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": "dough",
+          "display_order": 2
+        },
+        {
+          "id": "dough-egg",
+          "food": "egg",
+          "quantity": {
+            "amount": {
+              "value": "1",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": null,
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": "dough",
+          "display_order": 3
+        },
+        {
+          "id": "dough-butter",
+          "food": "butter",
+          "quantity": {
+            "amount": {
+              "value": "1/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": "melted",
+          "note": null,
+          "component": "dough",
+          "display_order": 4
+        },
+        {
+          "id": "dough-flour",
+          "food": "flour",
+          "quantity": {
+            "amount": {
+              "value": "3",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": "dough",
+          "display_order": 5
+        },
+        {
+          "id": "dough-salt",
+          "food": "salt",
+          "quantity": {
+            "amount": {
+              "value": "1",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "tsp",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": "dough",
+          "display_order": 6
+        },
+        {
+          "id": "fill-butter",
+          "food": "butter",
+          "quantity": {
+            "amount": {
+              "value": "1/2",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": "softened",
+          "note": null,
+          "component": "filling",
+          "display_order": 7
+        },
+        {
+          "id": "fill-brown",
+          "food": "brown-sugar",
+          "quantity": {
+            "amount": {
+              "value": "3/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": "packed",
+          "note": null,
+          "component": "filling",
+          "display_order": 8
+        },
+        {
+          "id": "fill-cinnamon",
+          "food": "cinnamon",
+          "quantity": {
+            "amount": {
+              "value": "2",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "tbsp",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": "filling",
+          "display_order": 9
+        },
+        {
+          "id": "icing-cheese",
+          "food": "cream-cheese",
+          "quantity": {
+            "amount": {
+              "value": "4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "oz",
+            "size": null
+          },
+          "prep": "softened",
+          "note": null,
+          "component": "icing",
+          "display_order": 10
+        },
+        {
+          "id": "icing-butter",
+          "food": "butter",
+          "quantity": {
+            "amount": {
+              "value": "1/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": "softened",
+          "note": null,
+          "component": "icing",
+          "display_order": 11
+        },
+        {
+          "id": "icing-powdered",
+          "food": "powdered-sugar",
+          "quantity": {
+            "amount": {
+              "value": "1",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": "icing",
+          "display_order": 12
+        },
+        {
+          "id": "icing-vanilla",
+          "food": "vanilla",
+          "quantity": {
+            "amount": {
+              "value": "1/2",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "tsp",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": "icing",
+          "display_order": 13
+        }
+      ],
+      "steps": [
+        {
+          "id": "bloom",
+          "technique": {
+            "kind": "mix"
+          },
+          "inputs": [
+            {
+              "ref": "ingredient",
+              "ingredient_id": "dough-milk",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "dough-yeast",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "dough-sugar",
+              "portion": null
+            }
+          ],
+          "label": "bloom the yeast",
+          "text": "Stir the 3/4 cup warm milk, 2 1/4 tsp yeast, and 1/4 cup sugar. Wait until it foams.",
+          "duration": {
+            "min_minutes": 5,
+            "max_minutes": 10
+          },
+          "until": "until foamy",
+          "heat": null,
+          "attention": null,
+          "vessel": "mixer",
+          "reserves": [],
+          "component": "dough",
+          "order": 0
+        },
+        {
+          "id": "wet",
+          "technique": {
+            "kind": "mix"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "bloom",
+              "output_id": null,
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "dough-egg",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "dough-butter",
+              "portion": null
+            }
+          ],
+          "label": "mix the wet dough",
+          "text": "Beat in the egg and the 1/4 cup melted butter.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": "mixer",
+          "reserves": [],
+          "component": "dough",
+          "order": 1
+        },
+        {
+          "id": "knead",
+          "technique": {
+            "kind": "knead",
+            "method": "stand_mixer"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "wet",
+              "output_id": null,
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "dough-flour",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "dough-salt",
+              "portion": null
+            }
+          ],
+          "label": "knead",
+          "text": "Add the 3 cups flour and 1 tsp salt. Knead on medium until the dough is smooth and pulls from the bowl.",
+          "duration": {
+            "min_minutes": 8,
+            "max_minutes": null
+          },
+          "until": "until smooth",
+          "heat": null,
+          "attention": null,
+          "vessel": "mixer",
+          "reserves": [],
+          "component": "dough",
+          "order": 2
+        },
+        {
+          "id": "proof-1",
+          "technique": {
+            "kind": "proof",
+            "covered": true
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "knead",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "first rise",
+          "text": "Cover and let rise until doubled.",
+          "duration": {
+            "min_minutes": 60,
+            "max_minutes": 90
+          },
+          "until": "until doubled",
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": "dough",
+          "order": 3
+        },
+        {
+          "id": "mix-filling",
+          "technique": {
+            "kind": "combine"
+          },
+          "inputs": [
+            {
+              "ref": "ingredient",
+              "ingredient_id": "fill-butter",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "fill-brown",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "fill-cinnamon",
+              "portion": null
+            }
+          ],
+          "label": "make the filling",
+          "text": "Mash the 1/2 cup softened butter with 3/4 cup brown sugar and 2 tbsp cinnamon into a paste.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": "filling",
+          "order": 4
+        },
+        {
+          "id": "roll",
+          "technique": {
+            "kind": "roll",
+            "thickness": "1/4 inch"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "proof-1",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "roll the dough",
+          "text": "Punch down and roll into a 12-by-16-inch rectangle, about 1/4 inch thick.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": "dough",
+          "order": 5
+        },
+        {
+          "id": "fill",
+          "technique": {
+            "kind": "assemble"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "roll",
+              "output_id": null,
+              "portion": null
+            },
+            {
+              "ref": "step",
+              "step_id": "mix-filling",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "spread the filling",
+          "text": "Spread the cinnamon butter over the dough, leaving a 1/2-inch strip along one long edge.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": "filling",
+          "order": 6
+        },
+        {
+          "id": "shape",
+          "technique": {
+            "kind": "shape",
+            "form": "log"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "fill",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "roll into a log",
+          "text": "Roll up from the long side into a tight log and pinch the seam.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": null,
+          "order": 7
+        },
+        {
+          "id": "divide",
+          "technique": {
+            "kind": "divide",
+            "portions": 12
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "shape",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "cut into 12",
+          "text": "Slice the log into 12 rolls and nestle them in a buttered 9x13 pan.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": "pan",
+          "reserves": [],
+          "component": null,
+          "order": 8
+        },
+        {
+          "id": "proof-2",
+          "technique": {
+            "kind": "proof",
+            "covered": true
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "divide",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "second rise",
+          "text": "Cover and let the rolls puff until they touch.",
+          "duration": {
+            "min_minutes": 30,
+            "max_minutes": 45
+          },
+          "until": "until puffy and touching",
+          "heat": null,
+          "attention": null,
+          "vessel": "pan",
+          "reserves": [],
+          "component": null,
+          "order": 9
+        },
+        {
+          "id": "preheat",
+          "technique": {
+            "kind": "preheat",
+            "temperature": {
+              "value": 350,
+              "unit": "F"
+            }
+          },
+          "inputs": [],
+          "label": "heat the oven to 350\u00b0F",
+          "text": null,
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": null,
+          "order": 10
+        },
+        {
+          "id": "bake",
+          "technique": {
+            "kind": "bake",
+            "temperature": {
+              "value": 350,
+              "unit": "F"
+            },
+            "rack": "middle",
+            "convection": false,
+            "covered": null
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "proof-2",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "bake",
+          "text": "Bake until the tops are golden and the centers are set.",
+          "duration": {
+            "min_minutes": 25,
+            "max_minutes": 30
+          },
+          "until": "until golden",
+          "heat": null,
+          "attention": null,
+          "vessel": "pan",
+          "reserves": [],
+          "component": null,
+          "order": 11
+        },
+        {
+          "id": "mix-icing",
+          "technique": {
+            "kind": "cream"
+          },
+          "inputs": [
+            {
+              "ref": "ingredient",
+              "ingredient_id": "icing-cheese",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "icing-butter",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "icing-powdered",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "icing-vanilla",
+              "portion": null
+            }
+          ],
+          "label": "beat the icing",
+          "text": "Beat the cream cheese and butter until smooth, then the powdered sugar and vanilla.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": "mixer",
+          "reserves": [],
+          "component": "icing",
+          "order": 12
+        },
+        {
+          "id": "frost",
+          "technique": {
+            "kind": "frost"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "bake",
+              "output_id": null,
+              "portion": null
+            },
+            {
+              "ref": "step",
+              "step_id": "mix-icing",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "frost",
+          "text": "Spread the icing over the rolls while they are still just warm.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": "pan",
+          "reserves": [],
+          "component": null,
+          "order": 13
+        }
+      ],
+      "components": [
+        {
+          "id": "dough",
+          "name": "the dough",
+          "kind": "dough",
+          "order": 0
+        },
+        {
+          "id": "filling",
+          "name": "the filling",
+          "kind": "filling",
+          "order": 1
+        },
+        {
+          "id": "icing",
+          "name": "the icing",
+          "kind": "frosting",
+          "order": 2
+        }
+      ],
+      "equipment": [
+        {
+          "id": "mixer",
+          "name": "stand mixer",
+          "size": "bowl fitted with the dough hook"
+        },
+        {
+          "id": "pan",
+          "name": "baking pan",
+          "size": "9x13"
+        }
+      ],
+      "tags": [
+        "brunch",
+        "yeast",
+        "christmas"
+      ],
+      "cuisine": "American",
+      "course": "breakfast",
+      "difficulty": "medium",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1509365465985-25d11c17e812",
+          "alt": "A pan of iced cinnamon rolls",
+          "caption": "Still warm. The icing should gloss, not sit.",
+          "is_primary": true
+        }
+      ],
+      "notes": [
+        {
+          "id": "note-second-rise",
+          "author": "ruth",
+          "text": "Don't skip the second rise. If they look shy in the pan, give them another 15 minutes.",
+          "created_at": "2024-12-24T08:15:00"
+        }
+      ],
+      "source_url": null,
+      "forked_from": null,
+      "visibility": "public",
+      "created_at": "2024-03-12T10:00:00",
+      "updated_at": "2024-12-24T08:15:00",
+      "total_time_minutes": 183,
+      "gridable": true,
+      "grid_row_order": [
+        "dough-milk",
+        "dough-yeast",
+        "dough-sugar",
+        "dough-egg",
+        "dough-butter",
+        "dough-flour",
+        "dough-salt",
+        "fill-butter",
+        "fill-brown",
+        "fill-cinnamon",
+        "icing-cheese",
+        "icing-butter",
+        "icing-powdered",
+        "icing-vanilla"
+      ]
+    },
+    {
+      "id": "chocolate-chip-cookies",
+      "slug": "chocolate-chip-cookies",
+      "title": "The Chocolate Chip Cookies",
+      "headnote": "The back-of-the-bag recipe, except she always adds more chips than it says.",
+      "owner": {
+        "kind": "user",
+        "user_id": "ruth"
+      },
+      "added_by": "ruth",
+      "yields": {
+        "amount": {
+          "value": "48",
+          "upper": null,
+          "approximate": false
+        },
+        "unit": "cookies"
+      },
+      "ingredients": [
+        {
+          "id": "cookie-butter",
+          "food": "butter",
+          "quantity": {
+            "amount": {
+              "value": "1",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": "softened",
+          "note": null,
+          "component": null,
+          "display_order": 0
+        },
+        {
+          "id": "cookie-sugar",
+          "food": "sugar",
+          "quantity": {
+            "amount": {
+              "value": "3/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": null,
+          "display_order": 1
+        },
+        {
+          "id": "cookie-brown",
+          "food": "brown-sugar",
+          "quantity": {
+            "amount": {
+              "value": "3/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": "packed",
+          "note": null,
+          "component": null,
+          "display_order": 2
+        },
+        {
+          "id": "cookie-eggs",
+          "food": "egg",
+          "quantity": {
+            "amount": {
+              "value": "2",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": null,
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": null,
+          "display_order": 3
+        },
+        {
+          "id": "cookie-vanilla",
+          "food": "vanilla",
+          "quantity": {
+            "amount": {
+              "value": "1",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "tsp",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": null,
+          "display_order": 4
+        },
+        {
+          "id": "cookie-flour",
+          "food": "flour",
+          "quantity": {
+            "amount": {
+              "value": "9/4",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": null,
+          "display_order": 5
+        },
+        {
+          "id": "cookie-soda",
+          "food": "baking-soda",
+          "quantity": {
+            "amount": {
+              "value": "1",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "tsp",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": null,
+          "display_order": 6
+        },
+        {
+          "id": "cookie-salt",
+          "food": "salt",
+          "quantity": {
+            "amount": {
+              "value": "1",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "tsp",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": null,
+          "display_order": 7
+        },
+        {
+          "id": "cookie-chips",
+          "food": "chocolate-chips",
+          "quantity": {
+            "amount": {
+              "value": "2",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "cup",
+            "size": null
+          },
+          "prep": null,
+          "note": "or a big handful more",
+          "component": null,
+          "display_order": 8
+        }
+      ],
+      "steps": [
+        {
+          "id": "cookie-preheat",
+          "technique": {
+            "kind": "preheat",
+            "temperature": {
+              "value": 375,
+              "unit": "F"
+            }
+          },
+          "inputs": [],
+          "label": "heat the oven to 375\u00b0F",
+          "text": null,
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": null,
+          "order": 0
+        },
+        {
+          "id": "cookie-cream",
+          "technique": {
+            "kind": "cream"
+          },
+          "inputs": [
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-butter",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-sugar",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-brown",
+              "portion": null
+            }
+          ],
+          "label": "cream butter and sugars",
+          "text": "Beat the butter with both sugars until light.",
+          "duration": {
+            "min_minutes": 3,
+            "max_minutes": null
+          },
+          "until": "until light",
+          "heat": null,
+          "attention": null,
+          "vessel": "mixer",
+          "reserves": [],
+          "component": null,
+          "order": 1
+        },
+        {
+          "id": "cookie-wet",
+          "technique": {
+            "kind": "mix"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "cookie-cream",
+              "output_id": null,
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-eggs",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-vanilla",
+              "portion": null
+            }
+          ],
+          "label": "beat in eggs",
+          "text": "Beat in the eggs one at a time, then the vanilla.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": "mixer",
+          "reserves": [],
+          "component": null,
+          "order": 2
+        },
+        {
+          "id": "cookie-dry",
+          "technique": {
+            "kind": "mix"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "cookie-wet",
+              "output_id": null,
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-flour",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-soda",
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-salt",
+              "portion": null
+            }
+          ],
+          "label": "add the dry",
+          "text": "Stir in the flour, baking soda, and salt just until you don't see flour.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": "mixer",
+          "reserves": [],
+          "component": null,
+          "order": 3
+        },
+        {
+          "id": "cookie-fold",
+          "technique": {
+            "kind": "fold"
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "cookie-dry",
+              "output_id": null,
+              "portion": null
+            },
+            {
+              "ref": "ingredient",
+              "ingredient_id": "cookie-chips",
+              "portion": null
+            }
+          ],
+          "label": "fold in chips",
+          "text": "Fold in the 2 cups chocolate chips.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": null,
+          "order": 4
+        },
+        {
+          "id": "cookie-bake",
+          "technique": {
+            "kind": "bake",
+            "temperature": {
+              "value": 375,
+              "unit": "F"
+            },
+            "rack": "middle",
+            "convection": false,
+            "covered": null
+          },
+          "inputs": [
+            {
+              "ref": "step",
+              "step_id": "cookie-fold",
+              "output_id": null,
+              "portion": null
+            }
+          ],
+          "label": "bake",
+          "text": "Scoop onto a sheet pan and bake until the edges are set and the centers still look soft.",
+          "duration": {
+            "min_minutes": 9,
+            "max_minutes": 11
+          },
+          "until": "until the edges are set",
+          "heat": null,
+          "attention": null,
+          "vessel": "sheet",
+          "reserves": [],
+          "component": null,
+          "order": 5
+        }
+      ],
+      "components": [],
+      "equipment": [
+        {
+          "id": "mixer",
+          "name": "stand mixer",
+          "size": "bowl fitted with the dough hook"
+        },
+        {
+          "id": "sheet",
+          "name": "sheet pan",
+          "size": null
+        }
+      ],
+      "tags": [
+        "cookies",
+        "weeknight"
+      ],
+      "cuisine": null,
+      "course": "dessert",
+      "difficulty": "easy",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e",
+          "alt": "A pile of chocolate chip cookies",
+          "caption": null,
+          "is_primary": true
+        }
+      ],
+      "notes": [],
+      "source_url": null,
+      "forked_from": null,
+      "visibility": "public",
+      "created_at": "2024-05-02T16:00:00",
+      "updated_at": "2024-05-02T16:00:00",
+      "total_time_minutes": 14,
+      "gridable": true,
+      "grid_row_order": [
+        "cookie-butter",
+        "cookie-sugar",
+        "cookie-brown",
+        "cookie-eggs",
+        "cookie-vanilla",
+        "cookie-flour",
+        "cookie-soda",
+        "cookie-salt",
+        "cookie-chips"
+      ]
+    },
+    {
+      "id": "cinnamon-toast",
+      "slug": "cinnamon-toast",
+      "title": "Emergency Cinnamon Toast",
+      "headnote": "For the mornings the rolls did not happen. She never wrote this down; Tucker did.",
+      "owner": {
+        "kind": "external",
+        "name": "Ruth Brewer",
+        "source": "the way she always made it",
+        "url": null,
+        "page": null
+      },
+      "added_by": "ruth",
+      "yields": {
+        "amount": {
+          "value": "1",
+          "upper": null,
+          "approximate": false
+        },
+        "unit": "slice"
+      },
+      "ingredients": [
+        {
+          "id": "toast-bread",
+          "food": "bread",
+          "quantity": {
+            "amount": {
+              "value": "1",
+              "upper": null,
+              "approximate": false
+            },
+            "unit": "slice",
+            "size": null
+          },
+          "prep": null,
+          "note": null,
+          "component": null,
+          "display_order": 0
+        },
+        {
+          "id": "toast-butter",
+          "food": "butter",
+          "quantity": {
+            "amount": null,
+            "unit": null,
+            "size": null
+          },
+          "prep": null,
+          "note": "a smear",
+          "component": null,
+          "display_order": 1
+        },
+        {
+          "id": "toast-sugar",
+          "food": "sugar",
+          "quantity": {
+            "amount": null,
+            "unit": null,
+            "size": null
+          },
+          "prep": null,
+          "note": "a sprinkle",
+          "component": null,
+          "display_order": 2
+        },
+        {
+          "id": "toast-cinnamon",
+          "food": "cinnamon",
+          "quantity": {
+            "amount": null,
+            "unit": null,
+            "size": null
+          },
+          "prep": null,
+          "note": "a sprinkle",
+          "component": null,
+          "display_order": 3
+        }
+      ],
+      "steps": [
+        {
+          "id": "toast",
+          "technique": {
+            "kind": "toast"
+          },
+          "inputs": [],
+          "label": "toast the bread",
+          "text": "Toast the bread. Butter it. Sugar and cinnamon on top. That's it.",
+          "duration": null,
+          "until": null,
+          "heat": null,
+          "attention": null,
+          "vessel": null,
+          "reserves": [],
+          "component": null,
+          "order": 0
+        }
+      ],
+      "components": [],
+      "equipment": [],
+      "tags": [],
+      "cuisine": null,
+      "course": "breakfast",
+      "difficulty": "easy",
+      "images": [],
+      "notes": [],
+      "source_url": null,
+      "forked_from": null,
+      "visibility": "public",
+      "created_at": "2025-01-04T07:30:00",
+      "updated_at": "2025-01-04T07:30:00",
+      "total_time_minutes": 0,
+      "gridable": false,
+      "grid_row_order": [
+        "toast-bread",
+        "toast-butter",
+        "toast-sugar",
+        "toast-cinnamon"
+      ]
+    }
+  ]
+}
